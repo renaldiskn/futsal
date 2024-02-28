@@ -1,0 +1,85 @@
+*{
+    justify-content: center;
+}
+
+/* Add this CSS to style your table */
+table.scrollable {
+    width: 100%;
+    overflow: auto;
+    display: block;
+  }
+  
+  .table-responsive {
+    max-height: 400px; /* Set the maximum height of the table */
+    overflow-y: auto;
+  }
+  
+  table.table {
+    width: 100%;
+    margin-bottom: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+  }
+  
+  .table th {
+    background-color: #f9f9f9; /* Header background color */
+  }
+  
+  .table-striped tbody > tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Odd row background color */
+  }
+  
+  .table-striped tbody > tr:nth-child(even) {
+    background-color: #ffffff; /* Even row background color */
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #007bff; /* Button background color */
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #0056b3; /* Button background color on hover */
+    border-color: #0056b3;
+  }
+  
+  .btn-warning {
+    color: #fff;
+    background-color: #ffc107; /* Warning button background color */
+    border-color: #ffc107;
+  }
+  
+  .btn-warning:hover {
+    color: #fff;
+    background-color: #ffaa00; /* Warning button background color on hover */
+    border-color: #ffaa00;
+  }
+  
+  .btn-danger {
+    color: #fff;
+    background-color: #dc3545; /* Danger button background color */
+    border-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    color: #fff;
+    background-color: #bd2130; /* Danger button background color on hover */
+    border-color: #bd2130;
+  }
+  
+  .cdz {
+    cursor: not-allowed;
+    background-color: #ccc; /* Disabled button background color */
+    color: #777; /* Disabled button text color */
+  }
+  
